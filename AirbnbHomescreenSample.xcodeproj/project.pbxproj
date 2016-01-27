@@ -8,20 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		2688E7061C586861007DD00A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2688E7051C586861007DD00A /* AppDelegate.swift */; };
-		2688E7081C586861007DD00A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2688E7071C586861007DD00A /* ViewController.swift */; };
 		2688E70B1C586861007DD00A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2688E7091C586861007DD00A /* Main.storyboard */; };
 		2688E70D1C586861007DD00A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2688E70C1C586861007DD00A /* Assets.xcassets */; };
 		2688E7101C586861007DD00A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2688E70E1C586861007DD00A /* LaunchScreen.storyboard */; };
+		2688E7191C5875B9007DD00A /* HeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2688E7181C5875B9007DD00A /* HeaderCell.swift */; };
+		2688E71B1C587895007DD00A /* UIExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2688E71A1C587895007DD00A /* UIExtension.swift */; };
+		2688E71D1C587A3B007DD00A /* HomescreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2688E71C1C587A3B007DD00A /* HomescreenViewController.swift */; };
+		2688E71F1C588406007DD00A /* PlaceCategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2688E71E1C588406007DD00A /* PlaceCategoryCell.swift */; };
+		2688E7211C5886AD007DD00A /* PlaceCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2688E7201C5886AD007DD00A /* PlaceCollectionViewCell.swift */; };
+		2688E7231C58A8CC007DD00A /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2688E7221C58A8CC007DD00A /* SampleData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2688E7021C586861007DD00A /* AirbnbHomescreenSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirbnbHomescreenSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2688E7051C586861007DD00A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2688E7071C586861007DD00A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2688E70A1C586861007DD00A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2688E70C1C586861007DD00A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2688E70F1C586861007DD00A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2688E7111C586861007DD00A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2688E7181C5875B9007DD00A /* HeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderCell.swift; sourceTree = "<group>"; };
+		2688E71A1C587895007DD00A /* UIExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIExtension.swift; sourceTree = "<group>"; };
+		2688E71C1C587A3B007DD00A /* HomescreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomescreenViewController.swift; sourceTree = "<group>"; };
+		2688E71E1C588406007DD00A /* PlaceCategoryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceCategoryCell.swift; sourceTree = "<group>"; };
+		2688E7201C5886AD007DD00A /* PlaceCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceCollectionViewCell.swift; sourceTree = "<group>"; };
+		2688E7221C58A8CC007DD00A /* SampleData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +49,7 @@
 			isa = PBXGroup;
 			children = (
 				2688E7041C586861007DD00A /* AirbnbHomescreenSample */,
+				2688E7171C58686E007DD00A /* Supporting */,
 				2688E7031C586861007DD00A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,13 +65,26 @@
 		2688E7041C586861007DD00A /* AirbnbHomescreenSample */ = {
 			isa = PBXGroup;
 			children = (
-				2688E7051C586861007DD00A /* AppDelegate.swift */,
-				2688E7071C586861007DD00A /* ViewController.swift */,
 				2688E7091C586861007DD00A /* Main.storyboard */,
+				2688E71A1C587895007DD00A /* UIExtension.swift */,
+				2688E7221C58A8CC007DD00A /* SampleData.swift */,
+				2688E7181C5875B9007DD00A /* HeaderCell.swift */,
+				2688E71E1C588406007DD00A /* PlaceCategoryCell.swift */,
+				2688E7201C5886AD007DD00A /* PlaceCollectionViewCell.swift */,
+				2688E71C1C587A3B007DD00A /* HomescreenViewController.swift */,
+			);
+			path = AirbnbHomescreenSample;
+			sourceTree = "<group>";
+		};
+		2688E7171C58686E007DD00A /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				2688E7051C586861007DD00A /* AppDelegate.swift */,
 				2688E70C1C586861007DD00A /* Assets.xcassets */,
 				2688E70E1C586861007DD00A /* LaunchScreen.storyboard */,
 				2688E7111C586861007DD00A /* Info.plist */,
 			);
+			name = Supporting;
 			path = AirbnbHomescreenSample;
 			sourceTree = "<group>";
 		};
@@ -135,7 +159,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2688E7081C586861007DD00A /* ViewController.swift in Sources */,
+				2688E7191C5875B9007DD00A /* HeaderCell.swift in Sources */,
+				2688E7231C58A8CC007DD00A /* SampleData.swift in Sources */,
+				2688E71F1C588406007DD00A /* PlaceCategoryCell.swift in Sources */,
+				2688E7211C5886AD007DD00A /* PlaceCollectionViewCell.swift in Sources */,
+				2688E71D1C587A3B007DD00A /* HomescreenViewController.swift in Sources */,
+				2688E71B1C587895007DD00A /* UIExtension.swift in Sources */,
 				2688E7061C586861007DD00A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
